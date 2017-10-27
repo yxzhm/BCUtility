@@ -7,6 +7,6 @@ def main():
     value, type = winreg.QueryValueEx(key, "CacheID")
     print('Del CacheID: '+str(value))
     winreg.DeleteValue(key,"CacheID")
-
+#test
 if __name__ == '__main__':
     main()
